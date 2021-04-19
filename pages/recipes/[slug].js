@@ -20,6 +20,21 @@ export const getStaticPaths = async () => {
   };
 };
 
+export async function getStaticProps({ params }) {
+  const { items } = await client.getEntries({
+    content_type: 'recipe',
+    // Slug is unique in server so we are fetching by slug name
+    // Server doesnt know field is unique so it will send array in res
+    'fields.slug': params.slug,
+  });
+  console.log(items);
+  return {
+    props: {
+      recipes: items[0],
+    },
+  };
+}
+
 export default function RecipeDetails() {
   return <div>Recipe Details</div>;
 }
