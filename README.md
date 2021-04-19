@@ -1,9 +1,21 @@
-This is the Next.js starter site (and course files) for the Next.js & Contentful tutorial by the Net Ninja.
+# NextJS Recipe Book
 
-## Getting Started
+- [NextJS Recipe Book](#nextjs-recipe-book)
+  - [Deployment](#deployment)
+  - [Description](#description)
+  - [Screenshots](#screenshots)
 
-To use the starter project, run the following in a terminal:
+## Deployment
 
-```bash
-npx create-next-app [your-site-name] -e https://github.com/iamshaunjp/next-contentful/tree/lesson-1-starter-site
-```
+- Checkout deployment at <https://nextjs-recipe-book-gagandeep39.vercel.app/>
+
+## Description
+
+- Recipe Book app created using Serverside rendering framework Next JS
+- Backend consists of Contentful CMS
+- Applicaiton deployed on Vercel
+
+## Screenshots
+
+![Screenshot 1](./assets/screenshot_1.png)
+![Screenshot 2](./assets/screenshot_2.png)
