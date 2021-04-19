@@ -1,5 +1,5 @@
 {
-  "name": "Node.js Alpine with VueJS",
+  "name": "Node.js Alpine with React",
   "build": {
     "dockerfile": "Dockerfile"
   },
