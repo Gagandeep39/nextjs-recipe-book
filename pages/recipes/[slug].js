@@ -30,7 +30,17 @@ export async function getStaticProps({ params }) {
     // Server doesnt know field is unique so it will send array in res
     'fields.slug': params.slug,
   });
-  console.log(items);
+
+  // Conditional redirect
+  // Reicrect uer if they enter an invlid recipe path manually
+  if (!items.length)
+    return {
+      redirect: {
+        destination: '/',
+        permanent: false,
+      },
+    };
+
   return {
     props: {
       recipe: items[0],
