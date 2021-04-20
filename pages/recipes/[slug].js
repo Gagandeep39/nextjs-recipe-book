@@ -34,6 +34,7 @@ export async function getStaticProps({ params }) {
     props: {
       recipe: items[0],
     },
+    revalidate: 10, // App fetches conentful data once in every 10 sec
   };
 }
 
