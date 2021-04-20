@@ -13,8 +13,8 @@
 
 - Recipe Book app created using Serverside rendering framework Next JS
 - Backend consists of Contentful CMS
-- Applicaiton deployed on Vercel
-- Reference <https://www.youtube.com/watch?v=m9mNsYJbkNg&list=PL4cUxeGkcC9jClk8wl1yJcN3Zlrr8YSA1&index=1/>
+- Application deployed on Vercel
+- Project Reference [link](https://www.youtube.com/watch?v=m9mNsYJbkNg&list=PL4cUxeGkcC9jClk8wl1yJcN3Zlrr8YSA1&index=1)
 
 ## Screenshots
 
